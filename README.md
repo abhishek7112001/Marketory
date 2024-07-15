@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <img src="./src/app/favicon.ico" width="30"> Marketory</img>
 
-## Getting Started
+Welcome to **Marketory**, an e-commerce website with an admin panel designed to facilitate online purchases of Products. This project utilizes modern technologies such as **Next.js**, **Javascript**, **Prisma**, **MongoDB**, **Iron-Session**, **shadcn** and **Stripe** for seamless integration and robust functionality.
 
-First, run the development server:
+<!-- ![Thumbnail](/marketory.png) -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User-friendly Interface**: Marketory provides an intuitive interface for users to browse and purchase products conveniently.
+- **Admin Panel**: A powerful admin panel is included for managing products, orders, and user data efficiently.
+- **Secure Payment Processing**: Integration with Stripe ensures secure and seamless payment processing for a smooth checkout experience.
+- **Dynamic Content Rendering**: Next.js is employed for server-side rendering, enabling dynamic content generation and improved performance.
+- **Scalable Backend**: MongoDB is used as the database backend, offering scalability and flexibility for managing data.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## <a name="tech-stack">Tech Stack</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- MongoDB
+- Javascript
+- iron-session
+- Primsa
+- Stripe
+- Shadcn
+- Tailwind CSS
 
-## Learn More
+## <a name="quick-start">Integration and Installation Process</a>
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to set up the project locally on your device.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Prerequisites**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Make sure you have the following installed on your machine:
 
-## Deploy on Vercel
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To get started with **Marketory**, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository**:
+    ```shell
+    git clone https://github.com/prashant-sagar-shakya/marketory.git
+    ```
+2. **Install Dependencies**:
+    ```shell
+    cd marketory
+    npm install
+    ```
+3. **Start the Development Server**:
+    ```shell
+    npm run dev
+    ```
+4. **Access the Website**: Open your browser and navigate to `http://localhost:3000` to access the website.
+
+5. **Set Up Environment Variables**: Create a new file named `.env` in the root of your project and add the following content:
+
+    ```env
+    NEXT_PUBLIC_SECRET_KEY=sdfdsfsdbvsdjvhbsjfdsbfjsd54354353453dsfsfs
+    NODE_ENV="development"
+    DATABASE_URL=""
+
+    UPLOADTHING_SECRET=
+    UPLOADTHING_APP_ID=
+
+    NEXT_PUBLIC_CHARACTERS="dfbhsdufsbvdefhfbdjhb"
+
+
+    SMTP_EMAIL=
+    SMTP_PASS=
+
+    STRIPE_SECRET_KEY=""
+    NEXT_PUBLIC_FRONTEND_URL=http://localhost:3000
+    ```
+## <a name="contribution">Contribution</a>
+Contributions are welcome, Happy Coding !!!
